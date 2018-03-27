@@ -25,6 +25,7 @@ import { UsersComponent } from './components/users';
 
 import '../styles/styles.scss';
 import '../styles/headings.css';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -49,7 +50,8 @@ interface StoreType {
     HomeComponent,
     NoContentComponent,
     XLargeDirective,
-    UsersComponent
+    UsersComponent,
+    NavbarComponent
   ],
   /**
    * Import Angular's modules.
